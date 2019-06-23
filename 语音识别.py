@@ -49,7 +49,7 @@ def find_matrix_max_shape(audio):
             h=a
         if b > l:
             l=b
-    return 700, 13
+    return h, l
 
 def matrix_make_up(audio):
     h, l = find_matrix_max_shape(audio)
